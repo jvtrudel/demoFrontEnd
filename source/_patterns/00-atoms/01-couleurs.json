@@ -1,0 +1,21 @@
+{ "test": "123",
+  "color-primary":[
+    {"hex":"#098A96"},
+    {"hex":"#4BA8B1"},
+    {"hex":"#29919A"},
+    {"hex":"#036B75"},
+    {"hex":"#01545C"}],
+  "color-secondary-1": [
+    {"hex":"#F6AA0B"},
+    {"hex":"#FFCF6A"},
+    {"hex":"#FDC141"},
+    {"hex":"#C08302"},
+    {"hex":"#976600"}],
+  "color-secondary-2": [
+    {"hex":"#F6170B"},
+    {"hex":"#FF716A"},
+    {"hex":"#FD4A41"},
+    {"hex":"#C00B02"},
+    {"hex":"#970800"}]
+
+}

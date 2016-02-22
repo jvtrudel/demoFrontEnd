@@ -1,6 +1,7 @@
-/* Text-Related Elements */ 
+/* Text-Related Elements */
 p {
 	margin-bottom: $space;
+  color: $color-primary-0;
 }
 
 /* Blockquote */
@@ -12,7 +13,7 @@ blockquote {
 	margin-bottom: $space;
 }
 
-/* Horizontal Rule */ 
+/* Horizontal Rule */
 hr {
 	border: 0;
     height: 2px;

@@ -1,6 +1,7 @@
-formats=('portable' 'desktop' 'tablet' 'hdscreen')
+formats=('phone' 'desktop' 'tablet' 'hdscreen')
 
 for i in $formats; do
+  echo $i
   sass sass/$i.sass public/css/$i.css
 done
 

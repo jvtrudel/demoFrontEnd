@@ -9,10 +9,36 @@ responsive: {
   b3: 979px,
   b4: 1200px
   }
+rooturl: "jvtrudel.com"
+icone: [
+{item: "Koclégo", url: ""},
+{item: Club, url: "club"},
+{item: Partenaires, url: "partenaires"}
+]
+plan: [
+{item: "Club de Robotique Roger-Comtois",
+   subelem: [
+      {item: "FLL", url: "club/fll"},
+      {item: "liens utiles", url: "club/liens"}
+      ] },
+{item: "Koclégo, équipe 2016",
+subelem: [
+   {item: Équipe, url: "koclego/equipe"},
+   {item: Projet, url: "koclego/projet"},
+   {item: Robot, url: "koclego/robot"}
+   ]
+},
+{item: Partenaires}
+]
+vitrine: [
+   {item: Équipe, url: "koclego/equipe"},
+   {item: Projet, url: "koclego/projet"},
+   {item: Robot, url: "koclego/robot"}
+  ]
 svg: {
-  logo: '<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-  	 width="487.049px" height="827.958px" viewBox="0 0 487.049 827.958" enable-background="new 0 0 487.049 827.958"
-  	 xml:space="preserve">
+  logo: '<svg version="1.1" x="0px" y="0px"
+    viewBox="0 0 487.049 827.958" 
+  	preserveAspectRatio="xMinYMin meet">
   <g>
   	<path fill-rule="evenodd" clip-rule="evenodd" fill="#F9F9F9" d="M156-9.611c2.436,0.564,5.144,0.856,5,4
   		C157.74-5.351,156.187-6.798,156-9.611z"/>

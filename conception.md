@@ -1,27 +1,49 @@
 
-## Besoins
+# Besoins
 
-  - comparaison de styles (css)  <-
-  - intégration css+html <-  ça, on veut pas y toucher
+## Conception du désign
 
-## Stratégies
+  - comparaison de styles (css)
+     - fonts, couleurs, ...
+  - intégration css+html
+    - templates mustache
+    - sass
+    - script build
 
-### On ne touche que le css
+# Stratégies
 
-  - On fixe le html (patterns)
-  - on a une classe
+## Gestion du css responsive
 
-## Fonctionalités
+  - valeurs par défault dans style.css
+  - valeurs pour optimisation générique dans fichier phone, tablet, ... avec média query
+  - optimisation finale se fait dans un autre fichier (JS ajax?)
+
+# Fonctionalités
 
   - outils pour intégrer des palettes de couleurs de paletton
     - xml -> json
 
-
-  - Est-ce que le système pattern lab est vraiment nécessaire?
-  - vues pour afficher les essaies
-  - outils
+# Mise en oeuvre
 
 
-# Utilisateur final
 
-  - mettre tout dans un fichier nsl
+## Arborescence
+  - readme.md
+  - core
+    - templates
+    - sass
+  - projects
+
+     - projetA
+
+       - meta.yml
+       - content
+       - templates
+       - sass
+
+   - projetB
+     - ...
+
+  - public
+  - logs
+  - docs

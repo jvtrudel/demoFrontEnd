@@ -1,17 +1,18 @@
-
 projName="cvJvtrudel"
 files=('index')
 
 ###-----------------------------------------------
 
 formats=('style' 'phone' 'desktop' 'tablet' 'hdscreen')
-PROJECT_ROOT= "./projects"
-LAB_CORE_ROOT="./core"
+PROJECT_ROOT='projects'
+LAB_CORE_ROOT="core"
 
 tmp='.tmp_sass'
+echo $PROJECT_ROOT/$projName/sass/* 
+
 
 cp -rf $LAB_CORE_ROOT/sass/* $tmp
-cp -rf $PROJECT_ROOT/sass/* $tmp
+cp -rf $PROJECT_ROOT/$projName/sass/* $tmp
 
 for i in ${formats[@]}; do
   sass $tmp/$i.sass public/css/$i.css

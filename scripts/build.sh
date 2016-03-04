@@ -12,6 +12,9 @@ tmp='.tmp_sass'
 rm -rf $tmp
 mkdir $tmp
 
+rm -rf public/*
+mkdir public/css
+
 cp -rf $LAB_CORE_ROOT/sass/* $tmp
 cp -rf $PROJECT_ROOT/$projName/sass/* $tmp
 cp -rf $PROJECT_ROOT/$projName/fonts/* $tmp

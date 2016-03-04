@@ -1,4 +1,4 @@
-projName="cvJvtrudel"
+projName="jido"
 files=('index')
 
 ###-----------------------------------------------
@@ -14,6 +14,7 @@ mkdir $tmp
 
 cp -rf $LAB_CORE_ROOT/sass/* $tmp
 cp -rf $PROJECT_ROOT/$projName/sass/* $tmp
+cp -rf $PROJECT_ROOT/$projName/fonts/* $tmp
 
 for i in ${formats[@]}; do
   sass $tmp/$i.sass public/css/$i.css

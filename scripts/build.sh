@@ -31,3 +31,8 @@ for i in ${files[@]}; do
   mustache $PROJECT_ROOT/$projName/content/$i.yml temp.mustache > public/$i.html
   rm  -rf temp.mustache
 done
+
+### Pages dev
+
+cat $LAB_CORE_ROOT/templates/header.mustache > temp.mustache
+cat $LAB_CORE_ROOT/templates/.mustache >> temp.mustache
